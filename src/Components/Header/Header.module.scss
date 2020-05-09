@@ -1,0 +1,35 @@
+.container {
+    .wrapper {
+        height: 60px;
+        width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Open sans';
+        position: relative;
+        .logoBlock {
+            position: absolute;
+            top:20px;
+            left:30px;
+        }
+        .headerMenu {
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            right:30px;
+            p {
+                font-size: 14px;
+                line-height: 60px;
+                color: rgb(33,37,41);
+                margin-top:16px;
+                margin-left: 28.5px;
+            }
+        }
+    }
+}
+
+
+
+
+
+

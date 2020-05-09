@@ -1,0 +1,64 @@
+.container {
+    .wrapper {
+        width:1024px;
+        margin-top:100px;
+        margin-bottom:124px;
+        .headerWrapper {
+            display:flex;
+            justify-content: center;
+            .mainHeader {
+                margin:50px 0 40px 0;
+                width: 963px;
+                font-size: 50px;
+                line-height: 53px;
+                letter-spacing: -0.8px;
+                color: #212529;
+                font-family: "Open Sans";
+                text-align: center;
+            }
+        }
+        .infoWrapper {
+            display:flex;
+            justify-content: center;
+            flex-direction: row;
+            .imageWrapper {
+                .image {
+                    padding:30px;
+                    width:340px;
+                }
+            }
+            .textWrapper {
+                line-height: 50px;
+                padding:8px 0 0 17px;
+                .secondaryHeader {
+                    width: 550px;
+                    font-size: 24px;
+                    line-height: 20px;
+                    color: #212529;
+                    font-family: "Open Sans";
+                    margin-bottom:20px;
+                }
+                .secondaryText {
+                    text-align: justify;
+                    width: 555px;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: -0.1px;
+                    color: #4c4b4b;
+                    font-family: "Open Sans";
+                    padding:1px;
+                }
+                .btnSingUp {
+                    font-size: 16px;
+                    color: #ef5b4c;
+                    font-family: "Open Sans";
+                    font-weight: bold;
+                    border:none;
+                    background-color: #fff;
+                    text-align: left;
+                    padding:2px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.container1 {
+    .wrapper2 {
+        // border:1px solid red;
+        width:1024px;
+        overflow: hidden;
+        .imgWrapper {
+            position: relative;
+            .imgBanner {
+                width:1027px;
+                // background-size: contain;
+            }
+        }
+        .infoWrapper {
+            position: absolute;
+            top:117px;
+            margin-left:30px;
+            .headerText {
+                width: 523px;
+                height: 163px;
+                font-size: 50px;
+                line-height: 54px;
+                color: #ffffff;
+                font-family: "Open Sans";
+                margin-bottom:24px;
+                letter-spacing: -0.4px;
+            }
+            .mainText {
+                width: 532px;
+                height: 122px;
+                font-size: 16px;
+                line-height: 24px;
+                color: #ffffff;
+                font-family: "Open Sans";
+                // margin-bottom:34px;
+                margin: 0 0 32px 1px;
+            }
+            .btnSingUp {
+                width: 210px;
+                height: 38px;
+                border-radius: 4px;
+                font-family: "Open Sans";
+                background-color: #ef5b4b;
+                color: #ffffff;
+                border:none;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+    }
+}

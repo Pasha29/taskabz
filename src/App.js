@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header.js';
+import MainBanner from './Components/MainBanner/MainBanner.js';
+import AcquaintedBlock from './Components/AcquaintedBlock/AcquaintedBlock.js';
+import UsersBlock from './Components/UsersBlock/UsersBlock.js';
+import RegisterForm from './Components/RegisterForm/RegisterForm.js';
+import Footer from './Components/Footer/Footer.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainContainer">
+      <div className="mainWrapper">
+        <Header />
+        <MainBanner />
+        <AcquaintedBlock />
+        <UsersBlock />
+        <RegisterForm />
+        <Footer />
+      </div>
     </div>
   );
 }
