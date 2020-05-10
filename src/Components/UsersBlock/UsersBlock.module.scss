@@ -44,6 +44,7 @@
                     height: 71px;
                     background-color: #000000;
                     margin-top:5px;
+                    border-radius: 50px;
                 }
                 
                 .infoWrapper {
@@ -59,35 +60,63 @@
                         font-size: 24px;
                         color: rgb(33,37,41);
                         margin-bottom:13px;
+                        overflow: hidden;
+                        padding:5px;
+                        text-overflow: ellipsis;
                     }
-                    .position {
+                    // .position {
                         // margin-bottom:5px;
+                    // }
+                    .emailWrapper {
+                        position: relative;
+                        .email {
+                            overflow: hidden;
+                            padding:5px;
+                            text-overflow: ellipsis;
+                            &:hover + .tooltipEmail {
+                                visibility: visible;
+                                transition-delay: 0.2s;
+                            }
+                        }
+                        .tooltipEmail {
+                            position: absolute;
+                            top:60px;
+                            background-color: #000;
+                            opacity: 0.7;
+                            padding:10px;
+                            border-radius: 10px;
+                            color:#fff;
+                            visibility: hidden;
+                        }
                     }
-                    .email {
-                        // margin-bottom:12px;
-                    }
-                    .number{
+                    // .number{
                         
-                    }
+                    // }
                 }
             }
         }
         .btnWrapper {
             display:flex;
             justify-content: center;
-        }
-        .btnShowMore {
-            width: 210px;
-            height: 38px;
-            border-radius: 4px;
-            background-color: #ef5b4b;
-            color:#fff;
-            border:none;
-            margin:30px 0 150px 0;
-            font-family: "Open Sans";
-            font-weight: bold;
-            font-size: 16px;
-
+        
+            .btnShowMore {
+                width: 210px;
+                height: 38px;
+                border-radius: 4px;
+                background-color: #ef5b4b;
+                color:#fff;
+                border:none;
+                margin:30px 0 150px 0;
+                font-family: "Open Sans";
+                font-weight: bold;
+                font-size: 16px;
+                &:hover{
+                    background-color: #D24335;
+                }
+            }
+            .nobtn {
+                margin:30px 0 150px 0;
+            }
         }
     }
 }

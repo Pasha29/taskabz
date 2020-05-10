@@ -10,11 +10,11 @@ let Header = () => {
                     <img className={s.imageLogo} src={logo} alt="" />
                 </div>
                 <div className={s.headerMenu}>
-                    <p>About me</p>
-                    <p>Relationships</p>
-                    <p>Requirements</p>
-                    <p>Users</p>
-                    <p>Sign Up</p>
+                    <p><a href="#aboutMe">About me</a></p>
+                    <p><a href="#relationships">Relationships</a></p>
+                    <p><a href="#requirements">Requirements</a></p>
+                    <p><a href="#users">Users</a></p>
+                    <p><a href="#signUp">Sign Up</a></p>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ import imageManLaptop from './../../CommonFiles/Assets/man-laptop-v1.svg';
 let AcquaintedBlock = () => {
     return (
         <div className={s.container}>
-            <div className={s.wrapper}>
+            <div className={s.wrapper} id="aboutMe">
                 <div className={s.headerWrapper}>
                     <p className={s.mainHeader}>Let's get acquainted</p>
                 </div>
@@ -26,7 +26,7 @@ let AcquaintedBlock = () => {
                         If you use any task runner (gulp/webpack) you will get bonus points as well.
                          Slice service directory page P​SD mockup​ into HTML5/CSS3. 
                         </p>
-                        <button className={s.btnSingUp}>Sing up now</button>
+                        <button className={s.btnSingUp}><a href="#formAnchor">Sing up now</a></button>
                     </div>
                 </div>
             </div>

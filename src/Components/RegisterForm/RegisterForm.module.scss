@@ -35,11 +35,13 @@
             align-items: center;
             flex-direction: column;
             margin-top:13px;
+
             .formClass {
                 display:flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+
                 .inputWrapper {
                     width:100%;
                     .textForField {
@@ -66,9 +68,8 @@
                     }
                     
                     .checkBoxWrapper {
-                        .textForCheckBox {
-    
-                        }
+                        // .textForCheckBox {
+                        // }
                         .eachCheckbox {
                             .checkBox {
                                 width:14px;
@@ -122,7 +123,10 @@
                         }
                     }
                 }
-                
+                .error {
+                    font-size:13px;
+                    color:red;
+                }
                 .btnSingUp {
                     width: 210px;
                     height: 38px;
@@ -140,8 +144,78 @@
                     border:none;
         
                     margin:30px 0 163px 0;
+
+                    &:hover{
+                        background-color: #D24335;
+                    }
                 }
             }
+        }
+    }
+}
+
+.successModalWindow {
+    width: 395px;
+    height: 190px;
+    position: relative;
+    top:650px;
+    left:330px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 30px -7px #000000;
+    .borderBlock {
+        // height:2px;
+        width:100%;
+        border: 1px solid #ebedf1;
+    }
+
+    .firstBlock {
+        display: flex;
+        justify-content: space-between;
+        margin:0 10px;
+        & p {
+            font-size:24px;
+            margin:10px 0;
+            font-family: "Open Sans";
+        }
+        & button {
+            width:30px;
+            height:30px;
+            border:none;
+            background: none;
+            font-size:24px;
+            margin:10px 0;
+            // padding:5px;
+
+        }
+    }
+
+    .secondBlock {
+        & p {
+            font-size:16px;
+            color: #4c4b4b;
+            font-family: "Open Sans";
+            margin:20px;
+
+        }
+    }
+
+    .thirdBlock {
+        display:flex;
+        justify-content: flex-end;
+        margin-top:10px;
+        & button {
+            width: 80px;
+            height: 38px;
+            border-radius: 4px;
+            background-color: #ef5b4b;
+            font-size: 16px;
+            color: #fefefe;
+            font-family: "Open Sans";
+            font-weight: bold;
+            border:none;
+            margin-right:15px;
         }
     }
 }

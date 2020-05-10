@@ -1,5 +1,5 @@
-.container1 {
-    .wrapper2 {
+.container {
+    .wrapper {
         // border:1px solid red;
         width:1024px;
         overflow: hidden;
@@ -38,12 +38,19 @@
                 width: 210px;
                 height: 38px;
                 border-radius: 4px;
+                color: #ffffff;
                 font-family: "Open Sans";
                 background-color: #ef5b4b;
-                color: #ffffff;
                 border:none;
                 font-weight: bold;
                 font-size: 16px;
+                & a {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+                &:hover{
+                    background-color: #D24335;
+                }
             }
         }
     }

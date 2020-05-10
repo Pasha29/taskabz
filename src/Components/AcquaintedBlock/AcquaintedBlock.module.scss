@@ -57,6 +57,14 @@
                     background-color: #fff;
                     text-align: left;
                     padding:2px;
+                    & a {
+                        color: #ef5b4c;
+                        text-decoration: none;
+                        &:hover{
+                            color: #D24335;
+                        }
+                    }
+                    
                 }
             }
         }
