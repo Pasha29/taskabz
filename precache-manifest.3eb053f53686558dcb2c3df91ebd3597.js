@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b1a6cd0936118b4365b653c52689d0b",
+    "revision": "6545ff64715b6f77f0b25f1b977fff11",
     "url": "/taskabz/index.html"
   },
   {
-    "revision": "2a12f6d9f960fbcef302",
-    "url": "/taskabz/static/css/main.95b5d89a.chunk.css"
+    "revision": "52d23a9b2fcd92e88ec9",
+    "url": "/taskabz/static/css/main.d854ca2e.chunk.css"
   },
   {
-    "revision": "26b06120bc67f26202a4",
-    "url": "/taskabz/static/js/2.b4fdc612.chunk.js"
+    "revision": "8268ae9c9a25249c59fe",
+    "url": "/taskabz/static/js/2.8a0b0dad.chunk.js"
   },
   {
     "revision": "77e7f328dacc981fca681ee4ae94d669",
-    "url": "/taskabz/static/js/2.b4fdc612.chunk.js.LICENSE.txt"
+    "url": "/taskabz/static/js/2.8a0b0dad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a12f6d9f960fbcef302",
-    "url": "/taskabz/static/js/main.15fbfdd9.chunk.js"
+    "revision": "52d23a9b2fcd92e88ec9",
+    "url": "/taskabz/static/js/main.872e2ed1.chunk.js"
   },
   {
     "revision": "b5d89bdfa2f01580ef8c",
