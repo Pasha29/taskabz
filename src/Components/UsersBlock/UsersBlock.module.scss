@@ -184,3 +184,23 @@
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        .wrapper {
+        width: 768px;
+            .headerContainer {
+                .mainHeader {
+                    font-size: 40px;
+                }
+            }
+            .usersWrapper {
+                .userBlock {
+                    width:200px;
+                    margin:60px 15px 30px 15px;
+                }
+            }
+        }
+    }
+}

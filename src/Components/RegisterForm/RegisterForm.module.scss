@@ -308,3 +308,38 @@
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        .wrapper {
+            width: 768px;
+            .headerContainer {
+                .mainHeader {
+                    font-size: 40px;
+                }
+                .secondaryHeader {
+                    line-height: 22px;
+                }
+            }
+            .registerFormWrapper {
+                .formClass {
+                    .inputWrapper {
+                        .textForField {
+                            font-size: 16px;
+                        }
+                        .input {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .successModalWindow {
+        position: relative;
+        left:186px;
+    }
+
+}

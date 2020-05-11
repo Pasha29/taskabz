@@ -119,3 +119,27 @@
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        .wrapper {
+            width:768px;
+            height:500px;
+            overflow: hidden;
+            .infoWrapper {
+
+                .headerText {
+                    width: 421px;
+                    font-size: 40px;
+                    line-height: 44px;
+                    margin:0;
+                }
+                .mainText {
+                    width: 462px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}

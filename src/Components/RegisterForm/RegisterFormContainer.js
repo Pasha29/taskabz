@@ -13,7 +13,8 @@ class RegisterFormContainer extends React.Component {
         return (
             <>
             {/* if people register is successfully - show modal window else - register form */}
-            {this.props.toggleModalWindow && <SuccessRegisterWindow hideModal={this.props.toggleModalWindowTC}/>}
+            {/* {this.props.toggleModalWindow && <SuccessRegisterWindow hideModal={this.props.toggleModalWindowTC}/>} */}
+             <SuccessRegisterWindow hideModal={this.props.toggleModalWindowTC}/>
             <RegisterForm 
             addNewUserTC={this.props.addNewUserTC} 
             arrayOfRadioData={this.props.arrayOfRadioData}/>

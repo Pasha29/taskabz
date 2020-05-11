@@ -14,3 +14,11 @@
     overflow: hidden;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .mainWrapper {
+    max-width:768px;
+    position: relative;
+    overflow: hidden;
+  }
+}

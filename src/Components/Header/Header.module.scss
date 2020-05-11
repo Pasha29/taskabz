@@ -74,4 +74,13 @@
             }
         }
     }
-  }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        .wrapper {
+            height: 60px;
+            width: 768px;
+        }
+    }
+}
