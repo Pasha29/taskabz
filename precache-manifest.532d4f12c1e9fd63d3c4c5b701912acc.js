@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6545ff64715b6f77f0b25f1b977fff11",
+    "revision": "87d4ea4201b4aea0817091386308cb0c",
     "url": "/taskabz/index.html"
   },
   {
-    "revision": "52d23a9b2fcd92e88ec9",
+    "revision": "71899649977a85f2862c",
     "url": "/taskabz/static/css/main.d854ca2e.chunk.css"
   },
   {
-    "revision": "8268ae9c9a25249c59fe",
-    "url": "/taskabz/static/js/2.8a0b0dad.chunk.js"
+    "revision": "a1a0ea6c55bc0421e99d",
+    "url": "/taskabz/static/js/2.fddc110b.chunk.js"
   },
   {
     "revision": "77e7f328dacc981fca681ee4ae94d669",
-    "url": "/taskabz/static/js/2.8a0b0dad.chunk.js.LICENSE.txt"
+    "url": "/taskabz/static/js/2.fddc110b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52d23a9b2fcd92e88ec9",
-    "url": "/taskabz/static/js/main.872e2ed1.chunk.js"
+    "revision": "71899649977a85f2862c",
+    "url": "/taskabz/static/js/main.6b27f767.chunk.js"
   },
   {
     "revision": "b5d89bdfa2f01580ef8c",
