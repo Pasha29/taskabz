@@ -6,3 +6,11 @@
 .mainWrapper {
   max-width:1170px;
 }
+
+@media screen and (max-width: 360px) {
+  .mainWrapper {
+    max-width:360px;
+    position: relative;
+    overflow: hidden;
+  }
+}

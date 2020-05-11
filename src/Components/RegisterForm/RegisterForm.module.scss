@@ -219,3 +219,92 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 360px) {
+    .container {
+        .wrapper {
+            width: 360px;
+            display:flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            .headerContainer {
+                margin-top:115px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                & p {
+                    margin:0;
+                }
+                .mainHeader {
+                    width: 330px;
+                    height: 58px;
+                    font-size: 30px;
+                }
+                .secondaryHeader {
+                    width: 300px;
+                    height: 69px;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: rgb(76,75,75);
+                    font-family: "Open Sans";
+                    text-align: center;
+                }
+            }
+            .registerFormWrapper {
+                .formClass {
+                    .inputWrapper {
+                        width:350px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        .textForField {
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: rgb(33,37,41);
+                            font-family: "Open Sans";
+                        }
+                        .input {
+                            width: 318px;
+                            height: 38px;
+                        }
+                        .textPhoneformat {
+                            margin:5px 0;
+                            font-size: 12px;
+                        }
+                        .input[type='file'] {
+                            // font-size:25px;
+                            visibility: hidden;
+                            width: 235px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .successModalWindow {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        top:650px;
+        left:30px;
+        .thirdBlock {
+            & button {
+                width: 80px;
+                height: 38px;
+                border-radius: 4px;
+                background-color: #ef5b4b;
+                font-size: 16px;
+                color: #fefefe;
+                font-family: "Open Sans";
+                font-weight: bold;
+                border:none;
+                margin-right:15px;
+            }
+        }
+    }
+}

@@ -120,3 +120,67 @@
         }
     }
 }
+
+@media screen and (max-width: 360px) {
+    .container {
+        .wrapper {
+        width: 360px;
+        background-color: #f9f9f3;
+            .headerContainer {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                & p {
+                    margin:0;
+                }
+                .mainHeader {
+                    width: 330px;
+                    font-size: 30px;
+                }
+            }
+            .usersWrapper {
+                display:flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+                .userBlock {
+                    .userImg {
+                        width: 84px;
+                        height: 80px;
+                        background-color: #000000;
+                    }
+                    .infoWrapper {
+                        display:flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        .name {
+                            width: 216px;
+                            height: 22px;
+                            text-align: center;
+                            text-overflow: ellipsis;
+                        }
+                        .emailWrapper {
+                            .email {
+                                overflow: hidden;
+                                padding:5px;
+                                text-overflow: ellipsis;
+                                width: 216px;
+                                font-size: 16px;
+                                
+                                &:hover + .tooltipEmail {
+                                    visibility: visible;
+                                    transition-delay: 0.2s;
+                                    width: 216px;
+                                    word-wrap: break-word;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -3,8 +3,10 @@ import s from './UsersBlock.module.scss';
 // import photo from './../../CommonFiles/Assets/photo-cover.png';
 
 let UsersBlock = ({arrayOfUsers, getUsersFromApiTC, totalUsersCount}) => {
+    // hook for show more users
     let [getMoreUsers, setgetMoreUsers] = useState(12);
 
+    //get more users
     let getNewPageData = () => {
         getUsersFromApiTC(getMoreUsers);
         setgetMoreUsers(getMoreUsers + 6)

@@ -4,6 +4,7 @@ import s from './RegisterForm.module.scss';
 
 const NewField = (headText, type, placeholder) => {
     return (
+        // moved the duplicate code in other file
         <>
             <div className={s.inputWrapper}>
                 <p className={s.textForField}>{headText}</p>

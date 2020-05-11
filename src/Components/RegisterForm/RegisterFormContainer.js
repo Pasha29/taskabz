@@ -6,12 +6,13 @@ import SuccessRegisterWindow from './SuccessRegisterWindow';
 
 class RegisterFormContainer extends React.Component {
     componentDidMount() {
+        // get data for radio button when component did mount
         this.props.getRedioDataFromApiTC();
     }
     render(){
         return (
             <>
-            {/* {newUserId && <div>111111111111111111111</div>} */}
+            {/* if people register is successfully - show modal window else - register form */}
             {this.props.toggleModalWindow && <SuccessRegisterWindow hideModal={this.props.toggleModalWindowTC}/>}
             <RegisterForm 
             addNewUserTC={this.props.addNewUserTC} 

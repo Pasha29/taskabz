@@ -37,8 +37,41 @@
     }
 }
 
-
-
-
-
-
+@media screen and (max-width: 360px) {
+    .container {
+        display:flex;
+        justify-content: center;
+        .wrapper {
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Open sans';
+            position: relative;
+            border:1px solid red;
+            .logoBlock {
+                position: absolute;
+                top:10px;
+                left:30px;
+            }
+            .headerMenu {
+                p {
+                    a {
+                        text-decoration: none;
+                        font-size: 8px;
+                        line-height: 40px;
+                        color: #212529;
+                        margin-top:16px;
+                        margin-left: 28.5px;
+                        &:hover {
+                            color: #ef5b4c;
+                        }
+                        &:active {
+                            color: #007bff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }

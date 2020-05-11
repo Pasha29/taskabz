@@ -69,13 +69,11 @@ export const getRedioDataFromApiTC = () => {
     }
 }
 
-export const addNewUserTC = (userData = 0, token = 0) => {
+export const addNewUserTC = (userData) => {
     return (dispatch) => {
         getData.getToken().then( (token) => {
             newUser.setUser(userData, token)
                 .then( (userResponse) => {
-                    console.log('userResponse');
-                    console.log(userResponse);
                     dispatch(addNewUserAC(userResponse.user_id))
                     dispatch(getUsersFromApiTC());
                     dispatch(toggleModalWindowTC(true));
@@ -86,8 +84,6 @@ export const addNewUserTC = (userData = 0, token = 0) => {
 
 export const toggleModalWindowTC = (toggle) => {
     return (dispatch) => {
-        console.log('toggle');
-        console.log(toggle);
         dispatch(toggleModalWindowAC(toggle));
     }
 }

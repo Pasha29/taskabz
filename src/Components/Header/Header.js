@@ -9,13 +9,15 @@ let Header = () => {
                 <div className={s.logoBlock}>
                     <img className={s.imageLogo} src={logo} alt="" />
                 </div>
-                <div className={s.headerMenu}>
+                {window.innerWidth === 360 ?
+                <div></div> :
+                 <div className={s.headerMenu}>
                     <p><a href="#aboutMe">About me</a></p>
                     <p><a href="#relationships">Relationships</a></p>
                     <p><a href="#requirements">Requirements</a></p>
                     <p><a href="#users">Users</a></p>
                     <p><a href="#signUp">Sign Up</a></p>
-                </div>
+                </div>}
             </div>
         </div>
     )

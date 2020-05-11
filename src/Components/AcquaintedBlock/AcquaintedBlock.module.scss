@@ -70,3 +70,55 @@
         }
     }
 }
+
+
+@media screen and (max-width: 360px) {
+    .container {
+        .wrapper {
+            width:360px;
+            margin-top:100px;
+            margin-bottom:124px;
+            .headerWrapper {
+                display:flex;
+                justify-content: center;
+                .mainHeader {
+                    margin:0;
+                    width: 330px;
+                    height: 60px;
+                    font-size: 30px;
+                    line-height: 50px;
+                    text-align: center;
+                }
+            }
+            .infoWrapper {
+                display:flex;
+                justify-content: center;
+                flex-direction: column;
+                .imageWrapper {
+                    .image {
+                        width:300px;
+                    }
+                }
+                .textWrapper {
+                    .secondaryHeader {
+                        width: 330px;
+                        text-align: center;
+                    }
+                    .secondaryText {
+                        width: 330px;
+                        text-align: justify;
+                        color: #4c4b4b;
+                        font-family: "Open Sans";
+                    }
+                    .btnSingUp {
+                        width: 330px;
+                        height: 28px;
+                        font-size: 16px;
+                        line-height: 60px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

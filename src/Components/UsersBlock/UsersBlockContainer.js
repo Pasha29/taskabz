@@ -5,17 +5,9 @@ import { getUsersFromApiTC } from './../../Redux/commonReducer';
 
 class UsersBlockContainer extends React.Component {
     componentDidMount() {
+        //get users when component did mount
         this.props.getUsersFromApiTC();
     }
-    // componentDidUpdate(prevProps){
-    //     if(this.props.arrayOfUsers !== prevProps.arrayOfUsers) {
-    //         console.log('state update');
-    //         // this.props.getUsersFromApiTC();
-    //     }
-    //     else {
-    //         console.log('state not update');
-    //     }
-    // }
     render(){
         return (
             <UsersBlock 
