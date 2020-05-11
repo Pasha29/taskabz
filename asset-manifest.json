@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/taskabz/static/css/main.95b5d89a.chunk.css",
+    "main.js": "/taskabz/static/js/main.15fbfdd9.chunk.js",
+    "main.js.map": "/taskabz/static/js/main.15fbfdd9.chunk.js.map",
+    "runtime-main.js": "/taskabz/static/js/runtime-main.b8f2216c.js",
+    "runtime-main.js.map": "/taskabz/static/js/runtime-main.b8f2216c.js.map",
+    "static/js/2.b4fdc612.chunk.js": "/taskabz/static/js/2.b4fdc612.chunk.js",
+    "static/js/2.b4fdc612.chunk.js.map": "/taskabz/static/js/2.b4fdc612.chunk.js.map",
+    "index.html": "/taskabz/index.html",
+    "precache-manifest.df8448130079e67dbcd45a7f912a9415.js": "/taskabz/precache-manifest.df8448130079e67dbcd45a7f912a9415.js",
+    "service-worker.js": "/taskabz/service-worker.js",
+    "static/css/main.95b5d89a.chunk.css.map": "/taskabz/static/css/main.95b5d89a.chunk.css.map",
+    "static/js/2.b4fdc612.chunk.js.LICENSE.txt": "/taskabz/static/js/2.b4fdc612.chunk.js.LICENSE.txt",
+    "static/media/banner-photo.jpg": "/taskabz/static/media/banner-photo.f5443d74.jpg",
+    "static/media/logo.svg": "/taskabz/static/media/logo.146e2926.svg",
+    "static/media/man-laptop-v1.svg": "/taskabz/static/media/man-laptop-v1.3cdf7897.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8f2216c.js",
+    "static/js/2.b4fdc612.chunk.js",
+    "static/css/main.95b5d89a.chunk.css",
+    "static/js/main.15fbfdd9.chunk.js"
+  ]
+}
