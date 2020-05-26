@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/taskabz/static/css/main.d854ca2e.chunk.css",
-    "main.js": "/taskabz/static/js/main.ca154f52.chunk.js",
-    "main.js.map": "/taskabz/static/js/main.ca154f52.chunk.js.map",
+    "main.js": "/taskabz/static/js/main.4fe45f91.chunk.js",
+    "main.js.map": "/taskabz/static/js/main.4fe45f91.chunk.js.map",
     "runtime-main.js": "/taskabz/static/js/runtime-main.b8f2216c.js",
     "runtime-main.js.map": "/taskabz/static/js/runtime-main.b8f2216c.js.map",
     "static/js/2.f91da71f.chunk.js": "/taskabz/static/js/2.f91da71f.chunk.js",
     "static/js/2.f91da71f.chunk.js.map": "/taskabz/static/js/2.f91da71f.chunk.js.map",
     "index.html": "/taskabz/index.html",
-    "precache-manifest.ec818be5b2a3bde86676128841fe1081.js": "/taskabz/precache-manifest.ec818be5b2a3bde86676128841fe1081.js",
+    "precache-manifest.a50ccb88d2f04394ee2c1804b5cf239c.js": "/taskabz/precache-manifest.a50ccb88d2f04394ee2c1804b5cf239c.js",
     "service-worker.js": "/taskabz/service-worker.js",
     "static/css/main.d854ca2e.chunk.css.map": "/taskabz/static/css/main.d854ca2e.chunk.css.map",
     "static/js/2.f91da71f.chunk.js.LICENSE.txt": "/taskabz/static/js/2.f91da71f.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.b8f2216c.js",
     "static/js/2.f91da71f.chunk.js",
     "static/css/main.d854ca2e.chunk.css",
-    "static/js/main.ca154f52.chunk.js"
+    "static/js/main.4fe45f91.chunk.js"
   ]
 }
